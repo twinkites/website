@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-![Twin Kites LLC Logo](assets/images/logo.png){: style="max-width:500px;" }
+![Twin Kites LLC Logo](assets/images/logo.png){: style="max-width:200px;" }
 
 Welcome to **Twin Kites LLC**. We provide data science and engineering solutions, with a focus on simple yet performant solutions, just like our bird of prey namesake. 
 

@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Welcome to Twin Kites, LLC
 ---
 
 ![Twin Kites LLC Logo](assets/images/logo.png){: style="max-width:200px;" }

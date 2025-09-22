@@ -7,10 +7,6 @@ title: Welcome to Twin Kites, LLC
 
 Welcome to **Twin Kites LLC**. We provide data science and data engineering solutions, with a focus on simple yet performant solutions, just like our bird of prey namesake, the [kite](https://en.wikipedia.org/wiki/Kite_(bird)).
 
-For more information on what we offer, see our Services.
+For more information on what we offer, see our Services above.
 
-Explore:
-- [What We Do](/what-we-do/)
-- [How We Do It](/how-we-do-it/)
-- [Who We Are](/who-we-are/)
-- [Contact Us](/contact/)
+Thanks for visiting.

@@ -1,0 +1,19 @@
+title: Twin Kites LLC
+description: Twin Kites LLC Official Website
+theme: minima
+markdown: kramdown
+show_excerpts: true
+
+
+minima:
+  skin: classic
+  custom_css:
+    - /assets/css/custom.css
+
+header_pages:
+  - index.md
+  - what-we-do.md
+  - services.md
+  - how-we-do-it.md
+  - who-we-are.md
+  - contact.md

@@ -4,7 +4,7 @@ title: Services
 permalink: /services/
 ---
 
-Below are Twin Kites LLC's core service packages. Each card lists outcomes and concrete deliverables.
+Below are Twin Kites LLC's core service packages. Each card lists outcomes and concrete deliverables. Please feel free to reach out to us for more information.
 
 <div class="card card--strategy">
   <h2><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/><path d="M6.94 6.94a.5.5 0 0 1 .112-.168l3.5-3.5a.5.5 0 0 1 .707.707l-3.5 3.5a.5.5 0 0 1-.168.112l-2.5 1a.5.5 0 0 1-.65-.65l1-2.5z"/></svg> Data Strategy & Architecture</h2>
@@ -36,7 +36,7 @@ Below are Twin Kites LLC's core service packages. Each card lists outcomes and c
   <p>Executive dashboards that update automatically (Tableau, Power BI, or open-source).</p>
   <strong>Deliverables</strong>
   <ul>
-    <li>Fully functioning dashboards</li>
+    <li>Clearly assessible dashboards</li>
     <li>Data refresh automation</li>
     <li>User guide & knowledge transfer</li>
   </ul>
@@ -50,7 +50,7 @@ Below are Twin Kites LLC's core service packages. Each card lists outcomes and c
   <ul>
     <li>Cleaned, documented datasets</li>
     <li>KPI definitions & dashboard layout</li>
-    <li>Executive readout of insights</li>
+    <li>Executive-access to insights</li>
   </ul>
 </div>
 
@@ -78,21 +78,9 @@ Below are Twin Kites LLC's core service packages. Each card lists outcomes and c
   </ul>
 </div>
 
-<div class="card card--ml">
-  <h2><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M4 4h8v8H4V4z"/><path d="M0 7h3v2H0V7zm13 0h3v2h-3V7zM7 0h2v3H7V0zm0 13h2v3H7v-3zM2.343 2.343l1.414 1.414L2.343 5.17 0.93 3.757 2.343 2.343zm11.314 0l1.414 1.414-1.414 1.414-1.414-1.414 1.414-1.414zM2.343 13.657l1.414-1.414 1.414 1.414-1.414 1.414-1.414-1.414zm11.314 0l1.414-1.414 1.414 1.414-1.414 1.414-1.414-1.414z"/></svg> Machine Learning & AI</h2>
-  <h3>Custom NLP / Text Analytics</h3>
-  <p>Sentiment analysis, topic modeling, entity recognition tuned to your domain.</p>
-  <strong>Deliverables</strong>
-  <ul>
-    <li>Annotated datasets (as needed)</li>
-    <li>Trained models & evaluation metrics</li>
-    <li>Integration guidance</li>
-  </ul>
-</div>
-
 <div class="card card--training">
   <h2><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0L0 4l8 4 6.4-3.2V9h1.6V4L8 0z"/><path d="M0 8v4l8 4 8-4V8l-8 4-8-4z"/></svg> Training & Capacity Building</h2>
-  <h3>Data Literacy Bootcamp</h3>
+  <h3>Data Analytics Bootcamp</h3>
   <p>Workshops for business teams to interpret and act on analytics.</p>
   <strong>Deliverables</strong>
   <ul>

@@ -1,8 +1,6 @@
 ---
 layout: home
 ---
-
-<div align="center">
   
 ![Twin Kites LLC Logo](assets/images/logo.png){: style="max-width:300px;" }
 
@@ -11,6 +9,3 @@ Welcome to **Twin Kites LLC**. We provide data science and data engineering solu
 For more information on what we offer, see our Services above.
 
 Thanks for visiting.
-
-
-</div>

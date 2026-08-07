@@ -15,7 +15,7 @@ Ongoing Twin Kites projects. Code is public where possible, see <a href="https:/
 
 <div class="card card--genai">
   <h2>Local LLMs</h2>
-  <h3>local_llm_tips</h3>
+  <h3>local-llm-tips</h3>
   <p>Practical tips and notes on running local LLMs, hardware, quantization, and tooling for private, on-device inference. For students of all experience levels. </p>
   <a class="btn" href="https://github.com/twinkites/local_llm_tips">View on GitHub</a>
 </div>

@@ -11,18 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 </head>
 <body>
 
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-logo" href="{{ "/" | relative_url }}">
-        <img src="{{ "/assets/images/twinkites-logo-sm.png" | relative_url }}" alt="Twin Kites LLC">
-      </a>
       <div class="nav-right">
         <ul class="nav-links">
           <li><a href="{{ "/what-we-do/" | relative_url }}"{% if page.url contains 'what-we-do' %} class="active"{% endif %}>Our Approach</a></li>
@@ -36,6 +30,9 @@
           <span class="icon-moon">&#9790;</span>
         </button>
       </div>
+      <a class="nav-logo" href="{{ "/" | relative_url }}">
+        <img src="{{ "/assets/images/twinkites-logo-sm.png" | relative_url }}" alt="Twin Kites LLC">
+      </a>
     </div>
   </nav>
 

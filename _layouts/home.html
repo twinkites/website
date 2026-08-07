@@ -4,7 +4,7 @@ layout: default
 
 <section class="hero">
   <div class="hero-inner">
-    <img src="/assets/images/logo.png" alt="Twin Kites LLC" class="hero-logo">
+    <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Twin Kites LLC" class="hero-logo">
     <svg class="hero-string" viewBox="0 0 240 28" width="240" height="28" aria-hidden="true">
       <path d="M2 4 C 60 26, 120 -10, 180 14 S 232 26, 238 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
       <path d="M118 2 L 128 10 L 118 18 L 108 10 Z" fill="currentColor"/>
@@ -12,8 +12,8 @@ layout: default
     <h1 class="hero-title">Twin Kites LLC</h1>
     <p class="hero-sub">We solve complex data problems, with a focus on solutions that keep your data under your control.</p>
     <div class="hero-ctas">
-      <a href="/projects/" class="btn btn--primary">View Projects</a>
-      <a href="/contact/" class="btn btn--outline">Get in Touch</a>
+      <a href="{{ "/projects/" | relative_url }}" class="btn btn--primary">View Projects</a>
+      <a href="{{ "/contact/" | relative_url }}" class="btn btn--outline">Get in Touch</a>
     </div>
   </div>
 </section>
@@ -22,19 +22,19 @@ layout: default
   <div class="container">
     <h2 class="section-label">What We're Building</h2>
     <div class="category-grid">
-      <a href="/projects/" class="category-card category-card--genai">
+      <a href="{{ "/projects/" | relative_url }}" class="category-card category-card--genai">
         <h3>Local LLMs</h3>
         <p>Browser-based and on-device models, tips, and news for private inference</p>
       </a>
-      <a href="/projects/" class="category-card category-card--training">
+      <a href="{{ "/projects/" | relative_url }}" class="category-card category-card--training">
         <h3>Civic &amp; Voting Outreach</h3>
         <p>Tools that help people find the information they need to participate locally</p>
       </a>
-      <a href="/projects/" class="category-card category-card--ethics">
+      <a href="{{ "/projects/" | relative_url }}" class="category-card category-card--ethics">
         <h3>Ethics &amp; Governance</h3>
         <p>Frameworks for how autonomous systems should be governed and held accountable</p>
       </a>
-      <a href="/projects/" class="category-card category-card--ml">
+      <a href="{{ "/projects/" | relative_url }}" class="category-card category-card--ml">
         <h3>Data &amp; Applied Tools</h3>
         <p>Visualization, AR, and other experiments turning data into something useful</p>
       </a>

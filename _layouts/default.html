@@ -14,22 +14,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/custom.css">
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 </head>
 <body>
 
   <nav class="site-nav">
     <div class="nav-inner">
-      <a class="nav-logo" href="/">
-        <img src="/assets/images/logo.png" alt="Twin Kites LLC">
+      <a class="nav-logo" href="{{ "/" | relative_url }}">
+        <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Twin Kites LLC">
       </a>
       <div class="nav-right">
         <ul class="nav-links">
-          <li><a href="/our-approach/"{% if page.url contains 'our-approach' %} class="active"{% endif %}>Our Approach</a></li>
-          <li><a href="/how-we-do-it/"{% if page.url contains 'how-we-do-it' %} class="active"{% endif %}>How We Do It</a></li>
-          <li><a href="/projects/"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a></li>
-          <li><a href="/who-we-are/"{% if page.url contains 'who-we-are' %} class="active"{% endif %}>Who We Are</a></li>
-          <li><a href="/contact/" class="btn btn--nav">Contact</a></li>
+          <li><a href="{{ "/what-we-do/" | relative_url }}"{% if page.url contains 'what-we-do' %} class="active"{% endif %}>Our Approach</a></li>
+          <li><a href="{{ "/how-we-do-it/" | relative_url }}"{% if page.url contains 'how-we-do-it' %} class="active"{% endif %}>How We Do It</a></li>
+          <li><a href="{{ "/projects/" | relative_url }}"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a></li>
+          <li><a href="{{ "/who-we-are/" | relative_url }}"{% if page.url contains 'who-we-are' %} class="active"{% endif %}>Who We Are</a></li>
+          <li><a href="{{ "/contact/" | relative_url }}" class="btn btn--nav">Contact</a></li>
         </ul>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
           <span class="icon-sun">&#9728;</span>
@@ -46,15 +46,15 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-logo">
-        <img src="/assets/images/logo.png" alt="Twin Kites LLC">
+        <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Twin Kites LLC">
         <span>Twin Kites LLC</span>
       </div>
       <nav class="footer-links">
-        <a href="/what-we-do/">What We Do</a>
-        <a href="/how-we-do-it/">How We Do It</a>
-        <a href="/projects/">Projects</a>
-        <a href="/who-we-are/">Who We Are</a>
-        <a href="/contact/">Contact</a>
+        <a href="{{ "/what-we-do/" | relative_url }}">What We Do</a>
+        <a href="{{ "/how-we-do-it/" | relative_url }}">How We Do It</a>
+        <a href="{{ "/projects/" | relative_url }}">Projects</a>
+        <a href="{{ "/who-we-are/" | relative_url }}">Who We Are</a>
+        <a href="{{ "/contact/" | relative_url }}">Contact</a>
       </nav>
       <p class="footer-copy">&copy;{{ 'now' | date: '%Y' }} Twin Kites LLC &nbsp;&middot;&nbsp; <a href="mailto:twinkites@proton.me">twinkites@proton.me</a></p>
       <p class="footer-disclaimer">Twin Kites LLC is an independent practice and is not affiliated with, sponsored by, or endorsed by any institution, employer, or other third party. Information on this site, including project and repository descriptions, is provided for general informational purposes only and does not constitute professional, legal, or financial advice, and no attorney-client, fiduciary, or other special relationship is formed by using this site. All trademarks, product names, and company names referenced are the property of their respective owners.</p>

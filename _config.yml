@@ -1,3 +1,4 @@
 title: Twin Kites LLC
 description: Twin Kites LLC — Private, scalable data science and AI consulting.
 markdown: kramdown
+baseurl: "/website"

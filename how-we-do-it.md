@@ -46,4 +46,4 @@ We work one-on-one with you from start to finish. Here is what the process looks
 
 ---
 
-Questions? <a class="btn" href="/contact/">Get in Touch</a>
+Questions? <a class="btn" href="{{ "/contact/" | relative_url }}">Get in Touch</a>

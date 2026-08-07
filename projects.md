@@ -58,4 +58,4 @@ Ongoing Twin Kites projects. Code is public where possible, see <a href="https:/
 
 ---
 
-More small experiments (local LLM security, wellbeing tools, and other side projects) live on <a href="https://github.com/twinkites">our GitHub</a>. Interested in one of these becoming a real product or partnership? <a class="btn" href="/contact/">Get in touch</a>.
+More small experiments (local LLM security, wellbeing tools, and other side projects) live on <a href="https://github.com/twinkites">our GitHub</a>. Interested in one of these becoming a real product or partnership? <a class="btn" href="{{ "/contact/" | relative_url }}">Get in touch</a>.

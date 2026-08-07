@@ -4,8 +4,8 @@ title: Who We Are
 permalink: /who-we-are/
 ---
 
-**Who we are**
+Twin Kites LLC is an independent consulting practice. For more information on our team, please <a href="/contact/">reach out</a>.
 
+---
 
-
-Under construction
+*Twin Kites LLC is an independent practice and is not affiliated with, sponsored by, or endorsed by any institution, employer, or other third party.*

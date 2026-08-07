@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    try {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    } catch(e) {}
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="/">
+        <img src="/assets/images/logo.png" alt="Twin Kites LLC">
+      </a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="/our-approach/"{% if page.url contains 'our-approach' %} class="active"{% endif %}>Our Approach</a></li>
+          <li><a href="/how-we-do-it/"{% if page.url contains 'how-we-do-it' %} class="active"{% endif %}>How We Do It</a></li>
+          <li><a href="/projects/"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a></li>
+          <li><a href="/who-we-are/"{% if page.url contains 'who-we-are' %} class="active"{% endif %}>Who We Are</a></li>
+          <li><a href="/contact/" class="btn btn--nav">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <span class="icon-sun">&#9728;</span>
+          <span class="icon-moon">&#9790;</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="/assets/images/logo.png" alt="Twin Kites LLC">
+        <span>Twin Kites LLC</span>
+      </div>
+      <nav class="footer-links">
+        <a href="/what-we-do/">What We Do</a>
+        <a href="/how-we-do-it/">How We Do It</a>
+        <a href="/projects/">Projects</a>
+        <a href="/who-we-are/">Who We Are</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy;{{ 'now' | date: '%Y' }} Twin Kites LLC &nbsp;&middot;&nbsp; <a href="mailto:twinkites@proton.me">twinkites@proton.me</a></p>
+      <p class="footer-disclaimer">Twin Kites LLC is an independent practice and is not affiliated with, sponsored by, or endorsed by any institution, employer, or other third party. Information on this site, including project and repository descriptions, is provided for general informational purposes only and does not constitute professional, legal, or financial advice, and no attorney-client, fiduciary, or other special relationship is formed by using this site. All trademarks, product names, and company names referenced are the property of their respective owners.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      btn.addEventListener('click', function() {
+        var current = document.documentElement.getAttribute('data-theme');
+        var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var next;
+        if (current === 'dark') {
+          next = 'light';
+        } else if (current === 'light') {
+          next = 'dark';
+        } else {
+          next = systemDark ? 'light' : 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch(e) {}
+      });
+    })();
+  </script>
+
+</body>
+</html>
